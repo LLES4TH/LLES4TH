@@ -1,0 +1,53 @@
+/* Sayfa Genel Stili */
+body {
+  background-color: #f0f0f0; /* Arka plan rengini açık gri yapıyoruz */
+  font-family: Arial, sans-serif; /* Yazı tipi Arial olarak ayarlanıyor */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header (Başlık) Stili */
+header {
+  background-color: #4CAF50; /* Başlık arka planını yeşil yapıyoruz */
+  color: white; /* Yazı rengini beyaz yapıyoruz */
+  padding: 20px;
+  text-align: center; /* Yazıyı ortalayalım */
+}
+
+/* Navigasyon Menüsü */
+nav ul {
+  list-style-type: none; /* Liste işaretlerini kaldırıyoruz */
+  padding: 0;
+}
+
+nav ul li {
+  display: inline; /* Menü elemanlarını yatayda sıralıyoruz */
+  margin-right: 20px; /* Menü elemanları arasında boşluk bırakıyoruz */
+}
+
+nav ul li a {
+  text-decoration: none; /* Bağlantıların altını kaldırıyoruz */
+  color: white; /* Bağlantı metninin rengini beyaz yapıyoruz */
+  font-size: 18px; /* Bağlantı metninin boyutunu ayarlıyoruz */
+}
+
+nav ul li a:hover {
+  color: #ffeb3b; /* Fare ile üzerine gelince bağlantının rengini sarı yapalım */
+}
+
+/* Section (İçerik) Stili */
+section {
+  padding: 20px;
+  text-align: center; /* İçeriği ortalayalım */
+}
+
+/* Footer (Altbilgi) Stili */
+footer {
+  background-color: #333; /* Alt kısmın arka planını koyu gri yapalım */
+  color: white; /* Yazıyı beyaz yapalım */
+  padding: 10px;
+  text-align: center; /* Altbilgiyi ortalayalım */
+  position: fixed; /* Sayfa kayarken footer sabit kalsın */
+  width: 100%;
+  bottom: 0;
+}
